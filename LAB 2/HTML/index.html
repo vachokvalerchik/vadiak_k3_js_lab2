@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My TODO App</h1>
+      <div class="flow-right controls">
+        <span>Кількість предметів: <span id="item-count">0</span></span>
+        <span>Неперевірена кількість: <span id="unchecked-count">0</span></span>
+      </div>
+
+      <input type="text" id="todo-input" placeholder="Введіть назву TODO" class="todo-input" />
+
+      <button class="button center" onClick="newTodo()">Новий TODO</button>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
